@@ -163,7 +163,7 @@ Reports
 1. Type npx wdio and run under command Line
 2. then type npx allure generate
 3. Allure-reports and Allure-results Folders would be Generated .
-4. Open Allure-Reports Folder and Open index.html file in Firefox( with Chrome its not gonna Show report(Support Issue ))
+4. Open Allure-Reports Folder and Open index.html file in Firefox( with Chrome its not gonna Show report(Can You Netlify to use them with Chrome ))
   
 
 ************************************************************************************************
