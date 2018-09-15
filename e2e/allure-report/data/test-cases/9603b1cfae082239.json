@@ -1,0 +1,219 @@
+{
+  "uid" : "9603b1cfae082239",
+  "name" : "Clicking on Fork  ",
+  "fullName" : "Test Suite 1 .Clicking on Fork  ",
+  "historyId" : "edb8231baaab8f9644e275fa41f91f1d",
+  "time" : {
+    "start" : 1537052142911,
+    "stop" : 1537052149491,
+    "duration" : 6580
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "The Link should get Opened in New Tab: expected 'Sign in to GitHub · GitHub' to equal 'Budgeting App - Educational React App'",
+  "statusTrace" : "AssertionError: The Link should get Opened in New Tab: expected 'Sign in to GitHub · GitHub' to equal 'Budgeting App - Educational React App'\n                    at Context.<anonymous> (C:/Modus Create/test/budget.spec.js:100:16)\n                    at C:\\Modus Create\\node_modules\\wdio-sync\\build\\index.js:590:26\n                    at new Promise (<anonymous>)\n                    at new F (C:\\Modus Create\\node_modules\\core-js\\library\\modules\\_export.js:36:28)\n                    at Context.executeSync (C:\\Modus Create\\node_modules\\wdio-sync\\build\\index.js:588:12)\n                    at C:\\Modus Create\\node_modules\\wdio-sync\\build\\index.js:759:42",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "The Link should get Opened in New Tab: expected 'Sign in to GitHub · GitHub' to equal 'Budgeting App - Educational React App'",
+    "statusTrace" : "AssertionError: The Link should get Opened in New Tab: expected 'Sign in to GitHub · GitHub' to equal 'Budgeting App - Educational React App'\n                    at Context.<anonymous> (C:/Modus Create/test/budget.spec.js:100:16)\n                    at C:\\Modus Create\\node_modules\\wdio-sync\\build\\index.js:590:26\n                    at new Promise (<anonymous>)\n                    at new F (C:\\Modus Create\\node_modules\\core-js\\library\\modules\\_export.js:36:28)\n                    at Context.executeSync (C:\\Modus Create\\node_modules\\wdio-sync\\build\\index.js:588:12)\n                    at C:\\Modus Create\\node_modules\\wdio-sync\\build\\index.js:759:42",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/6a8de728e2dd03c704c003e35131a643/url",
+      "time" : {
+        "start" : 1537052142911,
+        "stop" : 1537052144109,
+        "duration" : 1198
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b6aed703403ace40",
+        "name" : "Request",
+        "source" : "b6aed703403ace40.json",
+        "type" : "application/json",
+        "size" : 39
+      }, {
+        "uid" : "2d5d3409703dce9a",
+        "name" : "Response",
+        "source" : "2d5d3409703dce9a.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/6a8de728e2dd03c704c003e35131a643/element",
+      "time" : {
+        "start" : 1537052144110,
+        "stop" : 1537052144135,
+        "duration" : 25
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "9c9308de866b6d8",
+        "name" : "Request",
+        "source" : "9c9308de866b6d8.json",
+        "type" : "application/json",
+        "size" : 84
+      }, {
+        "uid" : "45e0904400c6d20",
+        "name" : "Response",
+        "source" : "45e0904400c6d20.json",
+        "type" : "application/json",
+        "size" : 136
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/6a8de728e2dd03c704c003e35131a643/element/0.9544843409518338-1/click",
+      "time" : {
+        "start" : 1537052144136,
+        "stop" : 1537052144217,
+        "duration" : 81
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "3799f434649b6067",
+        "name" : "Response",
+        "source" : "3799f434649b6067.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/6a8de728e2dd03c704c003e35131a643/element",
+      "time" : {
+        "start" : 1537052146226,
+        "stop" : 1537052146241,
+        "duration" : 15
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "fb260cb4589d7e87",
+        "name" : "Request",
+        "source" : "fb260cb4589d7e87.json",
+        "type" : "application/json",
+        "size" : 91
+      }, {
+        "uid" : "1cdef969285b8ae4",
+        "name" : "Response",
+        "source" : "1cdef969285b8ae4.json",
+        "type" : "application/json",
+        "size" : 136
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/6a8de728e2dd03c704c003e35131a643/element/0.9544843409518338-2/click",
+      "time" : {
+        "start" : 1537052146241,
+        "stop" : 1537052147509,
+        "duration" : 1268
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ffacb71f7e5a7677",
+        "name" : "Response",
+        "source" : "ffacb71f7e5a7677.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "GET /wd/hub/session/6a8de728e2dd03c704c003e35131a643/title",
+      "time" : {
+        "start" : 1537052149491,
+        "stop" : 1537052149491,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "f43db217ade835d7",
+        "name" : "Response",
+        "source" : "f43db217ade835d7.json",
+        "type" : "application/json",
+        "size" : 116
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 9,
+    "stepsCount" : 6,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Test Suite 1 "
+  }, {
+    "name" : "testClass",
+    "value" : "Test Suite 1 "
+  }, {
+    "name" : "testMethod",
+    "value" : "Clicking on Fork  "
+  }, {
+    "name" : "package",
+    "value" : "Test Suite 1 "
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "9603b1cfae082239.json",
+  "parameterValues" : [ "chrome" ]
+}

@@ -1,0 +1,267 @@
+{
+  "uid" : "deed8bbe0e5cb34d",
+  "name" : "Switching Between Report & Budget and Clicking on star  ",
+  "fullName" : "Test Suite 1 .Switching Between Report & Budget and Clicking on star  ",
+  "historyId" : "c6f0dd8952cb26ec4ccbf04affec8ed9",
+  "time" : {
+    "start" : 1537052125683,
+    "stop" : 1537052142911,
+    "duration" : 17228
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "The Link should get Opened in New Tab: expected 'GitHub - ModusCreateOrg/budgeting: Budgeting - React + Redux + Webpack (tree shaking) Sample App' to equal 'Budgeting App - Educational React App'",
+  "statusTrace" : "AssertionError: The Link should get Opened in New Tab: expected 'GitHub - ModusCreateOrg/budgeting: Budgeting - React + Redux + Webpack (tree shaking) Sample App' to equal 'Budgeting App - Educational React App'\n                    at Context.<anonymous> (C:/Modus Create/test/budget.spec.js:88:16)\n                    at C:\\Modus Create\\node_modules\\wdio-sync\\build\\index.js:590:26\n                    at new Promise (<anonymous>)\n                    at new F (C:\\Modus Create\\node_modules\\core-js\\library\\modules\\_export.js:36:28)\n                    at Context.executeSync (C:\\Modus Create\\node_modules\\wdio-sync\\build\\index.js:588:12)\n                    at C:\\Modus Create\\node_modules\\wdio-sync\\build\\index.js:759:42",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "The Link should get Opened in New Tab: expected 'GitHub - ModusCreateOrg/budgeting: Budgeting - React + Redux + Webpack (tree shaking) Sample App' to equal 'Budgeting App - Educational React App'",
+    "statusTrace" : "AssertionError: The Link should get Opened in New Tab: expected 'GitHub - ModusCreateOrg/budgeting: Budgeting - React + Redux + Webpack (tree shaking) Sample App' to equal 'Budgeting App - Educational React App'\n                    at Context.<anonymous> (C:/Modus Create/test/budget.spec.js:88:16)\n                    at C:\\Modus Create\\node_modules\\wdio-sync\\build\\index.js:590:26\n                    at new Promise (<anonymous>)\n                    at new F (C:\\Modus Create\\node_modules\\core-js\\library\\modules\\_export.js:36:28)\n                    at Context.executeSync (C:\\Modus Create\\node_modules\\wdio-sync\\build\\index.js:588:12)\n                    at C:\\Modus Create\\node_modules\\wdio-sync\\build\\index.js:759:42",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/6a8de728e2dd03c704c003e35131a643/url",
+      "time" : {
+        "start" : 1537052125683,
+        "stop" : 1537052125773,
+        "duration" : 90
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "94aaab0e0baec510",
+        "name" : "Request",
+        "source" : "94aaab0e0baec510.json",
+        "type" : "application/json",
+        "size" : 39
+      }, {
+        "uid" : "1af3fefced1866e2",
+        "name" : "Response",
+        "source" : "1af3fefced1866e2.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/6a8de728e2dd03c704c003e35131a643/element",
+      "time" : {
+        "start" : 1537052125776,
+        "stop" : 1537052125814,
+        "duration" : 38
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "41fa5babb434e954",
+        "name" : "Request",
+        "source" : "41fa5babb434e954.json",
+        "type" : "application/json",
+        "size" : 61
+      }, {
+        "uid" : "cce90d6f0f31abf9",
+        "name" : "Response",
+        "source" : "cce90d6f0f31abf9.json",
+        "type" : "application/json",
+        "size" : 137
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/6a8de728e2dd03c704c003e35131a643/element/0.22261600707201534-1/click",
+      "time" : {
+        "start" : 1537052125815,
+        "stop" : 1537052125860,
+        "duration" : 45
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "118fd6bfbd81c92b",
+        "name" : "Response",
+        "source" : "118fd6bfbd81c92b.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/6a8de728e2dd03c704c003e35131a643/element",
+      "time" : {
+        "start" : 1537052129865,
+        "stop" : 1537052129881,
+        "duration" : 16
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "57e5d0a2ea7a9554",
+        "name" : "Request",
+        "source" : "57e5d0a2ea7a9554.json",
+        "type" : "application/json",
+        "size" : 84
+      }, {
+        "uid" : "86237f3f07e2b14f",
+        "name" : "Response",
+        "source" : "86237f3f07e2b14f.json",
+        "type" : "application/json",
+        "size" : 137
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/6a8de728e2dd03c704c003e35131a643/element/0.22261600707201534-2/click",
+      "time" : {
+        "start" : 1537052129881,
+        "stop" : 1537052129941,
+        "duration" : 60
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "4936ba88339272f7",
+        "name" : "Response",
+        "source" : "4936ba88339272f7.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/6a8de728e2dd03c704c003e35131a643/element",
+      "time" : {
+        "start" : 1537052131949,
+        "stop" : 1537052131965,
+        "duration" : 16
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "baf93130b648f9df",
+        "name" : "Request",
+        "source" : "baf93130b648f9df.json",
+        "type" : "application/json",
+        "size" : 91
+      }, {
+        "uid" : "49b44ca0fb821db2",
+        "name" : "Response",
+        "source" : "49b44ca0fb821db2.json",
+        "type" : "application/json",
+        "size" : 137
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/6a8de728e2dd03c704c003e35131a643/element/0.22261600707201534-3/click",
+      "time" : {
+        "start" : 1537052131965,
+        "stop" : 1537052140906,
+        "duration" : 8941
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "1183107b2593200c",
+        "name" : "Response",
+        "source" : "1183107b2593200c.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "GET /wd/hub/session/6a8de728e2dd03c704c003e35131a643/title",
+      "time" : {
+        "start" : 1537052142911,
+        "stop" : 1537052142911,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "1faf6e4d8820e4f9",
+        "name" : "Response",
+        "source" : "1faf6e4d8820e4f9.json",
+        "type" : "application/json",
+        "size" : 185
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 12,
+    "stepsCount" : 8,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Test Suite 1 "
+  }, {
+    "name" : "testClass",
+    "value" : "Test Suite 1 "
+  }, {
+    "name" : "testMethod",
+    "value" : "Switching Between Report & Budget and Clicking on star  "
+  }, {
+    "name" : "package",
+    "value" : "Test Suite 1 "
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "deed8bbe0e5cb34d.json",
+  "parameterValues" : [ "chrome" ]
+}

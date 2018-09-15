@@ -1,0 +1,7 @@
+[ {
+  "values" : [ "{\"maxInstances\":1,\"browserName\":\"chrome\",\"chromeOptions\":{\"args\":[\"start-maximized\"]}}" ],
+  "name" : "capabilities"
+}, {
+  "values" : [ "[\"C:\\\\Modus Create\\\\test\\\\test2.spec.js\"]" ],
+  "name" : "spec files"
+} ]

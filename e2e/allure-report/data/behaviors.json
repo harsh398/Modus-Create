@@ -1,0 +1,113 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "Budget Page Displayed And Information DisPlayed ",
+    "uid" : "976efa166e9cbcf2",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1537052078144,
+      "stop" : 1537052079940,
+      "duration" : 1796
+    },
+    "flaky" : false,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "Adding Income and Verifying",
+    "uid" : "b5dd6ceee6e29582",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1537052079941,
+      "stop" : 1537052095384,
+      "duration" : 15443
+    },
+    "flaky" : false,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "Adding  Expense and Verifying",
+    "uid" : "411a15678ff9c0c0",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1537052095385,
+      "stop" : 1537052123261,
+      "duration" : 27876
+    },
+    "flaky" : false,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "Add Alphanumeric Value",
+    "uid" : "c4c661311fe0891a",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1537052123262,
+      "stop" : 1537052125683,
+      "duration" : 2421
+    },
+    "flaky" : false,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "Switching Between Report & Budget and Clicking on star  ",
+    "uid" : "deed8bbe0e5cb34d",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1537052125683,
+      "stop" : 1537052142911,
+      "duration" : 17228
+    },
+    "flaky" : false,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "Clicking on Fork  ",
+    "uid" : "9603b1cfae082239",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1537052142911,
+      "stop" : 1537052149491,
+      "duration" : 6580
+    },
+    "flaky" : false,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "Adding Income Without Value",
+    "uid" : "a254e22e5d7d0afd",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1537052153223,
+      "stop" : 1537052160490,
+      "duration" : 7267
+    },
+    "flaky" : false,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "Adding Income Without Description",
+    "uid" : "6c5d77f67310c79b",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1537052160490,
+      "stop" : 1537052166449,
+      "duration" : 5959
+    },
+    "flaky" : false,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "Adding Income Without Description and Value",
+    "uid" : "b65b071560771f93",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1537052166450,
+      "stop" : 1537052172059,
+      "duration" : 5609
+    },
+    "flaky" : false,
+    "parameters" : [ "chrome" ]
+  } ]
+}

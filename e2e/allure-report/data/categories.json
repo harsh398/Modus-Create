@@ -1,0 +1,57 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "New Alphanumeric Value Didn't get added to Total Expense: expected '$6,802.00' to equal '$7,802.00'",
+      "children" : [ {
+        "name" : "Add Alphanumeric Value",
+        "uid" : "c4c661311fe0891a",
+        "parentUid" : "c8005d2b29abfe3e3dae526f073d0334",
+        "status" : "failed",
+        "time" : {
+          "start" : 1537052123262,
+          "stop" : 1537052125683,
+          "duration" : 2421
+        },
+        "flaky" : false,
+        "parameters" : [ "chrome" ]
+      } ],
+      "uid" : "c8005d2b29abfe3e3dae526f073d0334"
+    }, {
+      "name" : "The Link should get Opened in New Tab: expected 'GitHub - ModusCreateOrg/budgeting: Budgeting - React + Redux + Webpack (tree shaking) Sample App' to equal 'Budgeting App - Educational React App'",
+      "children" : [ {
+        "name" : "Switching Between Report & Budget and Clicking on star  ",
+        "uid" : "deed8bbe0e5cb34d",
+        "parentUid" : "cff0a709b768445bb14a7627223fa9e6",
+        "status" : "failed",
+        "time" : {
+          "start" : 1537052125683,
+          "stop" : 1537052142911,
+          "duration" : 17228
+        },
+        "flaky" : false,
+        "parameters" : [ "chrome" ]
+      } ],
+      "uid" : "cff0a709b768445bb14a7627223fa9e6"
+    }, {
+      "name" : "The Link should get Opened in New Tab: expected 'Sign in to GitHub · GitHub' to equal 'Budgeting App - Educational React App'",
+      "children" : [ {
+        "name" : "Clicking on Fork  ",
+        "uid" : "9603b1cfae082239",
+        "parentUid" : "599251914225c34475ad1505f3f27e78",
+        "status" : "failed",
+        "time" : {
+          "start" : 1537052142911,
+          "stop" : 1537052149491,
+          "duration" : 6580
+        },
+        "flaky" : false,
+        "parameters" : [ "chrome" ]
+      } ],
+      "uid" : "599251914225c34475ad1505f3f27e78"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}
